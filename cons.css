@@ -1,0 +1,497 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Rubik&display=swap');
+
+body
+{
+    background-color: #1D2026;
+}
+
+nav
+{
+    background-color: #1D2026;
+    margin-left: 430px;
+}
+
+li
+{
+    list-style: none;
+    display: inline-block;
+    padding-left: 35px;
+}
+
+a
+{
+    text-decoration: none;
+    color: #ffff;
+    font-size: 32px;
+    font-family: Rubik;
+}
+
+li :hover
+{
+    color: #23CC12;
+}
+
+#logo
+{
+    cursor: pointer;
+    width: 410px;
+    position: absolute;
+    top: 15px;
+}
+
+nav
+{
+    padding-top: 58px;
+}
+
+#al
+{
+    width: 770px;
+    height: 430px;
+    border: #ffff 1px solid;
+    border-radius: 35px 5px 35px 5px;
+    background: rgba(255, 255, 255, 0.01);
+    margin-top: 150px;
+    margin-left: 250px;
+    margin-bottom: 100px;
+    font-family: Rubik;
+}
+
+.lop
+{
+    position: absolute;
+}
+
+#con
+{
+    padding-left: 280px;
+    margin-bottom: 30px;
+    color: #23CC12;
+    font-size: 40px;
+}
+
+.ht
+{
+    width: 350px;
+    height: 300px;
+    border: #ffff 1px solid;
+}
+
+#gmail
+{
+    border-radius: 5px 35px 5px 35px;
+    position: absolute;
+    left: 20px;
+}
+
+#num
+{
+    border-radius: 5px 35px 5px 35px;
+    position: absolute;
+    right: 20px;
+}
+
+#akas
+{
+    color: #23CC12;
+    padding-left: 120px;
+    margin-bottom: 30px;
+}
+
+#i
+{
+    color: #DED30F;
+    font-weight: 30;
+    padding-left: 40px;
+    margin-bottom: 40px;
+}
+
+#ii
+{
+    color: #DED30F;
+    font-weight: 2;
+    font-size: 18px;
+    padding-left: 30px;
+}
+
+#akan
+{
+    color: #23CC12;
+    padding-left: 60px;
+    margin-bottom: 30px;
+}
+
+#iii
+{
+    color: #DED30F;
+    font-weight: 30;
+    padding-left: 65px;
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+#boru
+{
+    width: 500px;
+    height: 500px;
+    background-color: #1D2026;
+    margin-bottom: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1340px)
+{
+    nav
+    {
+        background-color: #1D2026;
+        margin-left: 400px;
+    }
+
+    li
+    {
+        list-style: none;
+        display: inline-block;
+        padding-left: 35px;
+    }
+
+    a
+    {
+        text-decoration: none;
+        color: #ffff;
+        font-size: 30px;
+        font-family: Rubik;
+    }
+
+    li :hover
+    {
+        color: #23CC12;
+    }
+
+    #logo
+    {
+        cursor: pointer;
+        width: 350px;
+        position: absolute;
+        top: 15px;
+    }
+
+    nav
+    {
+        padding-top: 55px;
+    }
+
+    #namea
+    {
+        top: 265px;
+    }
+
+    #agea
+    {
+        top: 337px;
+    }
+
+    #in2
+    {
+        top: 409px;
+    }
+
+    #cona
+    {
+        top: 480px;
+    }
+} 
+
+@media screen and (max-width: 1260px)
+{
+    nav
+    {
+        background-color: #1D2026;
+        margin-left: 320px;
+    }
+
+    li
+    {
+        list-style: none;
+        display: inline-block;
+        padding-left: 35px;
+    }
+
+    a
+    {
+        text-decoration: none;
+        color: #ffff;
+        font-size: 30px;
+        font-family: Rubik;
+    }
+
+    li :hover
+    {
+        color: #23CC12;
+    }
+
+    #logo
+    {
+        cursor: pointer;
+        width: 350px;
+        position: absolute;
+        top: 15px;
+    }
+
+    nav
+    {
+        padding-top: 55px;
+    }
+} 
+
+@media screen and (max-width: 1200px)
+{
+    nav
+    {
+        position: absolute;
+        top: 0;
+        left: -320px;
+        background-color: #1D2026;
+        z-index: 2;
+        width: 100%;
+        height: 150%;
+        clip-path: circle(100px at 90% -10%);
+        -webkit-clip-path: circle(100px at 90% -10%);
+        transition: all ease-out 1s;
+    }
+
+    .open
+    {
+        clip-path: circle(1200px at 90% -10%);
+        -webkit-clip-path: circle(1200px at 90% -10%);
+    }
+
+    a
+    {
+        color: #ffff;
+        font-weight: bold;
+    }
+
+    a:hover
+    {
+        color: #23CC12;
+    }
+
+    #aka
+    {
+        position: absolute;
+        left: 45%;
+    }
+
+    #deka
+    {
+        position: absolute;
+        left: 42%;
+        top: 200px;
+    }
+
+    #thuna
+    {
+        position: absolute;
+        left: 45.3%;
+        top: 320px;
+    }
+
+    #hatara
+    {
+        position: absolute;
+        left: 44%;
+        top: 440px;
+    }
+
+    #logo
+    {
+        cursor: pointer;
+        width: 410px;
+        position: absolute;
+        top: 15px;
+    }
+
+    #a
+    {
+        width: 50px;
+        height: 5px;
+        border-radius: 10px;
+        background-color: #ffff;
+        margin-bottom: 10px;
+        z-index: 2;
+    }
+
+    #aa
+    {
+        width: 50px;
+        height: 5px;
+        border-radius: 10px;
+        background-color: #ffff;
+        margin-bottom: 10px;
+        z-index: 2;
+    }
+
+    #aaa
+    {
+        width: 50px;
+        height: 5px;
+        border-radius: 10px;
+        background-color: #ffff;
+        margin-bottom: 10px;
+        z-index: 2;
+    }
+    
+    #lines
+    {
+        cursor: pointer;
+        background-color: #1D2026;
+        width: 50px;
+        height: 35px;
+        position: absolute;
+        top: 80px;
+        left: 1000px;
+        z-index: 2;
+    }
+
+    #mmmone
+    {
+        padding-top: 250px;
+    }
+
+    .anyone
+    {
+        padding-left: 190px;
+    }
+
+    #allde
+    {
+        margin-top: 250px;
+    }
+
+    #namea
+    {
+        top: 250px;
+    }
+
+    #agea
+    {
+        top: 322px;
+    }
+
+    #in2
+    {
+        top: 394px;
+    }
+
+    #cona
+    {
+        top: 465px;
+    }
+
+    #al
+    {
+        margin-top: 300px;
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+}
+
+@media screen and (max-width: 1110px)
+{
+    #lines
+    {
+        cursor: pointer;
+        background-color: #1D2026;
+        width: 50px;
+        height: 35px;
+        position: absolute;
+        top: 80px;
+        left: 900px;
+        z-index: 2;
+    }
+
+    #allde
+    {
+        margin-top: 250px;
+    }
+}
+
+@media screen and (max-width: 1000px)
+{
+    #lines
+    {
+        cursor: pointer;
+        background-color: #1D2026;
+        width: 50px;
+        height: 35px;
+        position: absolute;
+        top: 80px;
+        left: 600px;
+        z-index: 2;
+    }
+
+    .anyone
+    {
+        padding-left: 60px;
+    }
+
+    .co2
+    {
+        font-size: 35px;
+    }
+
+    #mmmone
+    {
+        font-size: 40px;
+    }
+}

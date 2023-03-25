@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+
+body
+{
+    margin-right: 40px;
+}
+
+#all
+{
+    margin-top: 150px;
+}
+
+#fristnum
+{
+    font-family: Rubik;
+    font-size: 80px;
+    color: #23CC12;
+}
+
+#atara1
+{
+    font-family: Rubik;
+    font-size: 80px;
+    color: #ffff;
+}
+
+#secondnum
+{
+    font-family: Rubik;
+    font-size: 80px;
+    color: #23CC12;
+}
+
+#atara2
+{
+    font-family: Rubik;
+    font-size: 80px;
+    color: #ffff;
+}
+
+#tridnum
+{
+    font-family: Rubik;
+    font-size: 80px;
+    color: #DED30F;
+}
+

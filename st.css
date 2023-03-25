@@ -1,0 +1,410 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Rubik&display=swap');
+
+body
+{
+    background-color: #1D2026;
+}
+
+nav
+{
+    background-color: #1D2026;
+    margin-left: 450px;
+}
+
+li
+{
+    list-style: none;
+    display: inline-block;
+    padding-left: 35px;
+}
+
+a
+{
+    text-decoration: none;
+    color: #ffff;
+    font-size: 32px;
+    font-family: Rubik;
+}
+
+li :hover
+{
+    color: #23CC12;
+}
+
+#logo
+{
+    cursor: pointer;
+    width: 410px;
+    position: absolute;
+    top: 15px;
+}
+
+nav
+{
+    padding-top: 58px;
+}
+
+
+#mmmone
+{
+    padding-top: 150px;
+    font-family: Cabin;
+    color: #23CC12;
+    font-size: 55px;
+    font-weight: 20;
+    font-style: italic;
+}
+
+.co2
+{
+    font-family: Rubik;
+    font-weight: 15;
+    font-style: italic;
+    font-size: 40px;
+    color: #DED30F;
+}
+
+.anyone
+{
+    padding-left: 120px;
+}
+
+span
+{
+    color: #ffff;
+}
+
+
+#mmmtwo
+{
+    font-family: Cabin;
+    color: #23CC12;
+    font-size: 55px;
+    font-weight: 20;
+    font-style: italic;
+}
+
+#mmmtree
+{
+    font-family: Cabin;
+    color: #23CC12;
+    font-size: 55px;
+    font-weight: 20;
+    font-style: italic;
+}
+
+.co2:hover
+{
+    font-weight: bold;
+    font-size: 43px;
+    width: 1000px;
+    color: #DED30F;
+    transition: font-size 2s, font-weight 0.5s;
+}
+
+.hyz
+{
+    margin-bottom: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1340px)
+{
+    nav
+    {
+        background-color: #1D2026;
+        margin-left: 400px;
+    }
+
+    li
+    {
+        list-style: none;
+        display: inline-block;
+        padding-left: 35px;
+    }
+
+    a
+    {
+        text-decoration: none;
+        color: #ffff;
+        font-size: 30px;
+        font-family: Rubik;
+    }
+
+    li :hover
+    {
+        color: #23CC12;
+    }
+
+    #logo
+    {
+        cursor: pointer;
+        width: 350px;
+        position: absolute;
+        top: 15px;
+    }
+
+    nav
+    {
+        padding-top: 55px;
+    }
+} 
+
+@media screen and (max-width: 1260px)
+{
+    nav
+    {
+        background-color: #1D2026;
+        margin-left: 320px;
+    }
+
+    li
+    {
+        list-style: none;
+        display: inline-block;
+        padding-left: 35px;
+    }
+
+    a
+    {
+        text-decoration: none;
+        color: #ffff;
+        font-size: 30px;
+        font-family: Rubik;
+    }
+
+    li :hover
+    {
+        color: #23CC12;
+    }
+
+    #logo
+    {
+        cursor: pointer;
+        width: 350px;
+        position: absolute;
+        top: 15px;
+    }
+
+    nav
+    {
+        padding-top: 55px;
+    }
+} 
+
+@media screen and (max-width: 1200px)
+{
+    nav
+    {
+        position: absolute;
+        top: 0;
+        left: -320px;
+        background-color: #1D2026;
+        z-index: 2;
+        width: 100%;
+        height: 150%;
+        clip-path: circle(100px at 90% -10%);
+        -webkit-clip-path: circle(100px at 90% -10%);
+        transition: all ease-out 1s;
+    }
+
+    .open
+    {
+        clip-path: circle(1200px at 90% -10%);
+        -webkit-clip-path: circle(1200px at 90% -10%);
+    }
+
+    a
+    {
+        color: #ffff;
+        font-weight: bold;
+    }
+
+    a:hover
+    {
+        color: #23CC12;
+    }
+
+    #aka
+    {
+        position: absolute;
+        left: 45%;
+    }
+
+    #deka
+    {
+        position: absolute;
+        left: 42%;
+        top: 200px;
+    }
+
+    #thuna
+    {
+        position: absolute;
+        left: 45.3%;
+        top: 320px;
+    }
+
+    #hatara
+    {
+        position: absolute;
+        left: 44%;
+        top: 440px;
+    }
+
+    #logo
+    {
+        cursor: pointer;
+        width: 410px;
+        position: absolute;
+        top: 15px;
+    }
+
+    #a
+    {
+        width: 50px;
+        height: 5px;
+        border-radius: 10px;
+        background-color: #ffff;
+        margin-bottom: 10px;
+        z-index: 2;
+    }
+
+    #aa
+    {
+        width: 50px;
+        height: 5px;
+        border-radius: 10px;
+        background-color: #ffff;
+        margin-bottom: 10px;
+        z-index: 2;
+    }
+
+    #aaa
+    {
+        width: 50px;
+        height: 5px;
+        border-radius: 10px;
+        background-color: #ffff;
+        margin-bottom: 10px;
+        z-index: 2;
+    }
+    
+    #lines
+    {
+        cursor: pointer;
+        background-color: #1D2026;
+        width: 50px;
+        height: 35px;
+        position: absolute;
+        top: 80px;
+        left: 1000px;
+        z-index: 2;
+    }
+
+    #mmmone
+    {
+        padding-top: 250px;
+    }
+
+    .anyone
+    {
+        padding-left: 190px;
+    }
+}
+
+@media screen and (max-width: 1110px)
+{
+    #lines
+    {
+        cursor: pointer;
+        background-color: #1D2026;
+        width: 50px;
+        height: 35px;
+        position: absolute;
+        top: 80px;
+        left: 900px;
+        z-index: 2;
+    }
+}
+
+@media screen and (max-width: 1000px)
+{
+    #lines
+    {
+        cursor: pointer;
+        background-color: #1D2026;
+        width: 50px;
+        height: 35px;
+        position: absolute;
+        top: 80px;
+        left: 600px;
+        z-index: 2;
+    }
+
+    .anyone
+    {
+        padding-left: 60px;
+    }
+
+    .co2
+    {
+        font-size: 35px;
+    }
+
+    #mmmone
+    {
+        font-size: 40px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
